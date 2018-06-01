@@ -14,8 +14,10 @@ Copy the project id. You will use it in the next step.
 
 Go in to functions and run:
 
+```
 npm install
 firebase deploy --only functions --project <your-project-id>
+```
 
 ### Setup database ###
 
