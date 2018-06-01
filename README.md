@@ -12,9 +12,10 @@ Copy the project id. You will use it in the next step.
 
 ### Deploy your function ###
 
-Go in to functions and run:
+Run the following commands:
 
 ```
+cd functions
 npm install
 firebase deploy --only functions --project <your-project-id>
 ```
